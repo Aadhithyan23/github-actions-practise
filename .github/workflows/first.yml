@@ -8,6 +8,7 @@ jobs:
 
         steps:
 
-            - run: echo "Hello github actions"
-            - run: echo "I am learning CI/CD Pipelines"
+            - run: pwd
+            - run: node --version
+            - run: echo "I am learning Github actions"
 
