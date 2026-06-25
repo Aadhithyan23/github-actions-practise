@@ -1,0 +1,13 @@
+name: First Workflow
+
+on: push
+
+jobs:
+    hello:
+        runs-on: ubuntu-latest
+
+        steps:
+
+            - run: echo "Hello github actions"
+            - run: echo "I am learning CI/CD Pipelines"
+
